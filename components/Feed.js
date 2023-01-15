@@ -4,7 +4,7 @@ import Posts from './Posts';
 
 export default function Feed() {
   return (
-    <main>
+    <main className="grid grid-cols-1 md:grid-cols-3 md:max-w-6xl mx-auto">
       <section>
         {/**STORIES */}
         <Stories />
@@ -12,7 +12,7 @@ export default function Feed() {
         {/**POSTS */}
         <Posts />
       </section>
-      <section>
+      <section className="hidden md:inline-grid md:col-span-1">
         {/**MINI PROFILE */}
 
         {/**SUGGECTIONS */}
