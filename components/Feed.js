@@ -2,6 +2,7 @@ import React from 'react';
 import Stories from './Stories';
 import Posts from './Posts';
 import MiniProfile from './MiniProfile';
+import Suggestions from './Suggestions';
 
 export default function Feed() {
   return (
@@ -17,7 +18,9 @@ export default function Feed() {
         <div className="fixed w-[380px]">
           {/**MINI PROFILE */}
           <MiniProfile className="" />
+
           {/**SUGGECTIONS */}
+          <Suggestions />
         </div>
       </section>
     </main>
